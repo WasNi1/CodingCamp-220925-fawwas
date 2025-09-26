@@ -48,11 +48,54 @@
             </div>
         </div>
 
-        <!-- Message Us -->
+        <div class="container">
+            <!-- Form Section -->
+            <div class="form-section">
+            <h2>Message Us</h2>
+            <form id="dataForm">
+                <div>
+                <label for="nama">Nama :</label>
+                <input type="text" id="nama" name="nama">
+                </div>
+                <div>
+                <label for="tglLahir">Tanggal Lahir :</label>
+                <input type="date" id="tglLahir" name="tglLahir">
+                </div>
+                <div>
+                <label>Jenis Kelamin :</label>
+                <div class="radio-group">
+                    <input type="radio" id="laki-laki" name="jenisKelamin" value="Laki - Laki">
+                    <label for="laki-laki">Laki - Laki</label>
+                    <input type="radio" id="perempuan" name="jenisKelamin" value="Perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </div>
+                </div>
+                <div>
+                <label for="pesan">Pesan :</label>
+                <textarea id="pesan" name="pesan"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+            </div>
+
+            <!-- Result Section -->
+            <div class="result-section" id="resultBox">
+            <b>Current time :</b> <span id="curTime"></span>
+
+            <div id="resText">
+                Nama : -  
+                Tanggal Lahir : -  
+                Jenis Kelamin : -  
+                Pesan : -
+            </div>
+            </div>
+        </div>
 
     </main>
 
-    <footer></footer>
+    <footer>
+        <h4>Footer</h4>
+    </footer>
     
     <script src="js/script.js"></script>
 </body>

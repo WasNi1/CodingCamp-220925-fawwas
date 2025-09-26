@@ -88,3 +88,68 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
+/* form */
+
+.container {
+      display: flex;
+      gap: 20px;
+      border: 1px solid #000;
+      padding: 20px;
+    }
+
+    .form-section, .result-section {
+      flex: 1;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+    }
+
+    form div {
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: inline-block;
+      width: 120px;
+    }
+
+    input[type="text"], input[type="date"], textarea {
+      width: 60%;
+      padding: 5px;
+    }
+
+    textarea {
+      height: 80px;
+      resize: none;
+    }
+
+    .radio-group {
+      display: inline-block;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 8px;
+      background: #f5f5f5;
+      border: 1px solid #000;
+      cursor: pointer;
+    }
+
+    .result-section {
+      border: 1px solid #000;
+      padding: 10px;
+      white-space: pre-line;
+    }
+
+/* footer */
+footer{
+    background-color: black;
+    height: 70px;
+}
+footer h4{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    
+}
