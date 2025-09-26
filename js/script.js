@@ -1,6 +1,7 @@
 const form = document.getElementById('dataForm');
     const resText = document.getElementById('resText');
     const curTime = document.getElementById('curTime');
+    const welcomeText = document.getElementById('welcomeText');
 
     function updateTime() {
       const now = new Date();
@@ -21,4 +22,8 @@ const form = document.getElementById('dataForm');
         "Tanggal Lahir : " + tgl + "\n" +
         "Jenis Kelamin : " + gender + "\n" +
         "Pesan : " + pesan;
+
+        if(nama !== '-') {
+            welcomeText.textContent = `Hi ${nama}, Welcome To Our Website`;
+        }
     });
