@@ -41,3 +41,17 @@ nav ul li a:hover {
     border-bottom: 3px solid red;
     color: #ff5f3b;
 }
+
+
+/* homestyle */
+.home{
+    background: url("/img/background\ website.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
