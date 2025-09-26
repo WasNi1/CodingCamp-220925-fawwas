@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img{
+    height: 100px;
+    width: auto;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 34px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid red;
+    color: red;
+}
