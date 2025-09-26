@@ -18,10 +18,10 @@ const form = document.getElementById('dataForm');
       const pesan = document.getElementById('pesan').value || '-';
 
       resText.textContent = 
-        "Nama : " + nama + "\n" +
-        "Tanggal Lahir : " + tgl + "\n" +
-        "Jenis Kelamin : " + gender + "\n" +
-        "Pesan : " + pesan;
+        "Name : " + nama + "\n" +
+        "Birth Date : " + tgl + "\n" +
+        "Gender : " + gender + "\n" +
+        "Message : " + pesan;
 
         if(nama !== '-') {
             welcomeText.textContent = `Hi ${nama}, Welcome To Our Website`;
